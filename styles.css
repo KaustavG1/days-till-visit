@@ -1,0 +1,46 @@
+body {
+  background-image: url(./assets/background.png);
+  background-attachment: fixed;
+  background-position: center;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+.container {
+  height: 97vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#heading, #footer {
+  font-size: 64px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 700;
+}
+
+#demo {
+  font-size: 128px;
+}
+
+@media screen and (max-width: 900px) {
+  #heading, #footer {
+    font-size: 32px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 700;
+  }
+
+  #demo {
+    font-size: 48px;
+    border: 5px solid #FB9C89;
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
