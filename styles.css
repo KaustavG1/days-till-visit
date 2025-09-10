@@ -1,3 +1,8 @@
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
 body {
   background-image: url(./assets/background.png);
   background-attachment: fixed;
@@ -9,7 +14,7 @@ body {
 }
 
 .container {
-  height: 97vh;
+  height: 97%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
